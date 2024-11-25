@@ -21,23 +21,23 @@ const bookSchema = mongoose.Schema({
       validator: function (v) {
         return v.every((genre) =>
           [
-            "Action",
-            "Comedy",
-            "Drama",
-            "Fantasy",
             "Horror",
             "Romance",
+            "Action",
+            "Fantasy",
+            "Comedy",
+            "Crime",
             "Sci-Fi",
-            "Thriller",
+            "Drama",
             "Animation",
             "Documentary",
             "Mystery",
-            "Crime",
+            "Thriller",
           ].includes(genre)
         );
       },
 
-      message: (props) => `${props.value} contains invalid genres.`,
+      message: (props) => `${props.value} does not contain valid genres.`,
     },
   },
   stock: {
