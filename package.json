@@ -1,0 +1,19 @@
+{
+  "name": "quillvault",
+  "version": "1.0.0",
+  "description": "a book management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serkhani/quillvault.git"
+  },
+  "author": "serkhani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serkhani/quillvault/issues"
+  },
+  "homepage": "https://github.com/serkhani/quillvault#readme"
+}
