@@ -4,7 +4,7 @@ const mongoose=require('mongoose')
 const print=console.log
 require("dotenv").config()
 async function main() {
-    await mongoose.connect(process.env.CONNECTION_STRING);
+    await mongoose.connect(process.env.MONGODB_URI);
   }
   main().then(()=>{
       print('connection sauce')
